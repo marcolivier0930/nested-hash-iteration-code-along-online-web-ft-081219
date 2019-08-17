@@ -20,7 +20,7 @@ def remove_strawberry(contacts)
       if who == "Freddy Mercury"
         who.each do |attribute, flavors|
           if attribute == favorite_ice_cream_flavors
-            favorite_ice_cream_flavors
+            favorite_ice_cream_flavors.shift
           end
         end
       end
